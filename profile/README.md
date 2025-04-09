@@ -1,10 +1,6 @@
 # BiteUp - Modern Food Delivery Microservices
 
 <div align="center">
-  
-![BiteUp Logo](https://via.placeholder.com/200x100?text=BiteUp)
-
-**A robust, scalable food delivery platform built with Spring Boot microservices**
 
 </div>
 
