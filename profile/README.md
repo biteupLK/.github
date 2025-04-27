@@ -64,6 +64,8 @@ Alternatively, use the provided script to run all services:
 - Restaurant Service: http://localhost:8081
 - Order Service: http://localhost:8082
 - Keycloak: http://localhost:8181
+- payment:  http://localhost:8184    stripe listen --forward-to localhost:8084/webhook
+
 
 ## 🐳 Docker Deployment
 
