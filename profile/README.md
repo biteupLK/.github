@@ -20,6 +20,7 @@ The platform consists of the following microservices:
 | **restaurant-service** | 8081 | Processes restaurant data, menu management, and restaurant-specific features |
 | **order-service** | 8082 | Manages order creation, processing, and tracking |
 | **biteup-payment** | 8084 | Manages order Payments, processing, and tracking |
+| **biteup-Delivery** | 3000 | Manages Deliveries, processing, and tracking |
 | **keycloak** | 8181 | Identity and access management with OAuth2 support |
 
 ## 🚀 Getting Started
