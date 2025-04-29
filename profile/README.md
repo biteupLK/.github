@@ -19,6 +19,7 @@ The platform consists of the following microservices:
 | **product-service** | 8080 | Manages product catalog, inventory, and related operations |
 | **restaurant-service** | 8081 | Processes restaurant data, menu management, and restaurant-specific features |
 | **order-service** | 8082 | Manages order creation, processing, and tracking |
+| **biteup-payment** | 8084 | Manages order Payments, processing, and tracking |
 | **keycloak** | 8181 | Identity and access management with OAuth2 support |
 
 ## 🚀 Getting Started
@@ -61,10 +62,11 @@ Alternatively, use the provided script to run all services:
 - API Gateway: http://localhost:5000
 - User Service: http://localhost:8083
 - Product Service: http://localhost:8080
+- Delivery Service: http://localhost:3000
 - Restaurant Service: http://localhost:8081
 - Order Service: http://localhost:8082
 - Keycloak: http://localhost:8181
-- payment:  http://localhost:8184    stripe listen --forward-to localhost:8084/webhook
+- Payment Service:  http://localhost:8084    stripe listen --forward-to localhost:8084/webhook
 
 
 ## 🐳 Docker Deployment
